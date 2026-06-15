@@ -4,8 +4,6 @@ import brandIdentityPage from "./Desktop-1.png";
 import bunnyPage from "./Desktop-2.png";
 import myWheelsPage from "./Desktop-3.png";
 import orangedivider from "./orangedivider.png";
-import Social from "./Desktop-4.png";
-import SocialDivider from "./Frame-65.png";
 import logofolioDivider from "./Group-5.png";
 import bunnydivider from "./bunnydivider.png";
 import socialMediaPage from "./Desktop-5.png";
