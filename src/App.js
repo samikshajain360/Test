@@ -24,7 +24,7 @@ function App() {
         <img
           src={logofolioDivider}
           alt=""
-          className="absolute left-0 top-full -translate-y-[60%] w-full z-10 pointer-events-none"
+          className="absolute left-0 top-full -translate-y-[50%] w-full z-10 pointer-events-none"
         />
       </div>
 
@@ -39,7 +39,7 @@ function App() {
         <img
           src={orangedivider}
           alt=""
-          className="absolute left-0 top-full -translate-y-[60%] w-full z-10 pointer-events-none"
+          className="absolute left-0 top-full -translate-y-[50%] w-full z-10 pointer-events-none"
         />
       </div>
 
@@ -61,7 +61,7 @@ function App() {
         <img
           src={bunnydivider}
           alt=""
-          className="absolute left-0 top-full -translate-y-[70%] w-full z-10 pointer-events-none"
+          className="absolute left-0 top-full -translate-y-[60%] w-full z-10 pointer-events-none"
         />
       </div>
 
@@ -76,7 +76,7 @@ function App() {
         <img
           src={newDivider}
           alt=""
-          className="absolute left-0 top-full -translate-y-[60%] w-full z-10 pointer-events-none"
+          className="absolute left-0 top-full -translate-y-[50%] w-full z-10 pointer-events-none"
         />
       </div>
 
