@@ -9,72 +9,83 @@ import SocialDivider from "./Frame-65.png";
 import logofolioDivider from "./Group-5.png";
 import bunnydivider from "./bunnydivider.png";
 import socialMediaPage from "./Desktop-5.png";
+import newDivider from "./Group-6.png";
 
 function App() {
   return (
     <main className="min-h-screen bg-black">
-      <img
-        className="block w-full h-auto"
-        src={portfolioPage}
-        alt="Portfolio page"
-      />
+      {/* Portfolio */}
+      <div className="relative">
+        <img
+          className="block w-full h-auto"
+          src={portfolioPage}
+          alt="Portfolio page"
+        />
 
-      <img
-        className="block w-full h-auto"
-        src={logofolioDivider}
-        alt="Portfolio page"
-      />
-      <img
-        className="block w-full h-auto"
-        src={logoFolioPage}
-        alt="Logo folio page"
-      />
-      
-      <img
-        className="block w-full h-auto"
-        src={logoFolioPage}
-        alt="Logo folio page"
-      />
-            <img
-        className="block w-full h-auto"
-        src={orangedivider}
-        alt="Portfolio page"
-      />
+        <img
+          src={logofolioDivider}
+          alt=""
+          className="absolute left-0 top-full -translate-y-[260px] w-full z-10 pointer-events-none"
+        />
+      </div>
+
+      {/* Logo Folio */}
+      <div className="relative">
+        <img
+          className="block w-full h-auto"
+          src={logoFolioPage}
+          alt="Logo folio page"
+        />
+
+        <img
+          src={orangedivider}
+          alt=""
+          className="absolute left-0 top-full -translate-y-[205px] w-full z-10 pointer-events-none"
+        />
+      </div>
+
+      {/* Brand Identity */}
       <img
         className="block w-full h-auto"
         src={brandIdentityPage}
         alt="Brand identity page"
       />
-      <img
-        className="block w-full h-auto"
-        src={bunnyPage}
-        alt="Bunny brand identity page"
-      />
-      <img
-        className="block w-full h-auto"
-        src={bunnydivider}
-        alt="Bunny brand identity page"
-      />
-      <img
-        className="block w-full h-auto"
-        src={myWheelsPage}
-        alt="My Wheels brand identity page"
-      />
-      <img
-        className="block w-full h-auto"
-        src={Social}
-        alt="My Wheels brand identity page"
-      />
+
+      {/* Bunny + Divider */}
+      <div className="relative">
         <img
-        className="block w-full h-auto"
-        src={SocialDivider}
-        alt="Decorative divider between My Wheels and social media"
-      />
-    
+          className="block w-full h-auto"
+          src={bunnyPage}
+          alt="Bunny brand identity page"
+        />
+
+        <img
+          src={bunnydivider}
+          alt=""
+          className="absolute left-0 top-full -translate-y-[380px] w-full z-10 pointer-events-none"
+        />
+      </div>
+
+      {/* My Wheels + New Divider */}
+      <div className="relative">
+        <img
+          className="block w-full h-auto"
+          src={myWheelsPage}
+          alt="My Wheels brand identity page"
+        />
+
+        <img
+          src={newDivider}
+          alt=""
+          className="absolute left-0 top-full -translate-y-[240px] w-full z-10 pointer-events-none"
+        />
+      </div>
+
+      {/* Social */}
       <img
         className="block w-full h-auto"
         src={socialMediaPage}
-        alt="Social media folio page"
+        alt="Social page"
       />
     </main>
   );
