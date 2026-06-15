@@ -4,6 +4,7 @@ import brandIdentityPage from "./Desktop-1.png";
 import bunnyPage from "./Desktop-2.png";
 import myWheelsPage from "./Desktop-3.png";
 import orangedivider from "./orangedivider.png";
+import Social from "./Desktop-4.png";
 import logofolioDivider from "./Group-5.png";
 import bunnydivider from "./bunnydivider.png";
 import socialMediaPage from "./Desktop-5.png";
@@ -23,7 +24,7 @@ function App() {
         <img
           src={logofolioDivider}
           alt=""
-          className="absolute left-0 top-full -translate-y-[260px] w-full z-10 pointer-events-none"
+          className="absolute left-0 top-full -translate-y-[60%] w-full z-10 pointer-events-none"
         />
       </div>
 
@@ -38,7 +39,7 @@ function App() {
         <img
           src={orangedivider}
           alt=""
-          className="absolute left-0 top-full -translate-y-[205px] w-full z-10 pointer-events-none"
+          className="absolute left-0 top-full -translate-y-[60%] w-full z-10 pointer-events-none"
         />
       </div>
 
@@ -60,7 +61,7 @@ function App() {
         <img
           src={bunnydivider}
           alt=""
-          className="absolute left-0 top-full -translate-y-[380px] w-full z-10 pointer-events-none"
+          className="absolute left-0 top-full -translate-y-[70%] w-full z-10 pointer-events-none"
         />
       </div>
 
@@ -75,15 +76,22 @@ function App() {
         <img
           src={newDivider}
           alt=""
-          className="absolute left-0 top-full -translate-y-[240px] w-full z-10 pointer-events-none"
+          className="absolute left-0 top-full -translate-y-[60%] w-full z-10 pointer-events-none"
         />
       </div>
 
       {/* Social */}
       <img
         className="block w-full h-auto"
-        src={socialMediaPage}
+        src={Social}
         alt="Social page"
+      />
+
+      {/* Social Media */}
+      <img
+        className="block w-full h-auto"
+        src={socialMediaPage}
+        alt="Social media folio page"
       />
     </main>
   );
