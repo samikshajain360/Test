@@ -9,6 +9,7 @@ import logofolioDivider from "./Group-5.png";
 import bunnydivider from "./bunnydivider.png";
 import socialMediaPage from "./Desktop-5.png";
 import newDivider from "./Group-6.png";
+import socialDivider from "./socialdivider.svg";
 
 function App() {
   return (
@@ -80,12 +81,20 @@ function App() {
         />
       </div>
 
-      {/* Social */}
-      <img
-        className="block w-full h-auto"
-        src={Social}
-        alt="Social page"
-      />
+      {/* Social + Divider */}
+      <div className="relative">
+        <img
+          className="block w-full h-auto"
+          src={Social}
+          alt="Social page"
+        />
+
+        <img
+          src={socialDivider}
+          alt=""
+          className="absolute left-0 top-full -translate-y-[40%] w-full z-10 pointer-events-none"
+        />
+      </div>
 
       {/* Social Media */}
       <img
